@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors - Modern Blue Palette -->
+    <color name="primary_blue">#1E88E5</color>
+    <color name="primary_dark">#1565C0</color>
+    <color name="primary_light">#64B5F6</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Secondary Colors - Fresh & Vibrant -->
+    <color name="accent_yellow">#FFC107</color>
+    <color name="accent_light">#FFD54F</color>
+    <color name="green">#4CAF50</color>
+    <color name="green_light">#81C784</color>
+    <color name="orange">#FF7043</color>
+    <color name="success_green">#00C853</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="error_red">#F44336</color>
+    <color name="primary_green">#10b981</color>
+    
+    <!-- Background Colors - Clean & Modern -->
+    <color name="background_light">#F5F7FA</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_grey">#FAFBFC</color>
+    <color name="background_card">#FFFFFF</color>
+
+    <!-- Text Colors - Improved Readability -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_black">#000000</color>
+    <color name="text_gray">#616161</color>
+
+    <!-- UI Colors - Enhanced -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="border_light">#E0E0E0</color>
+    <color name="divider">#EEEEEE</color>
+    <color name="icon_tint">#9E9E9E</color>
+    <color name="star_gold">#FFB300</color>
+    <color name="rating_yellow">#FFCA28</color>
+
+    <!-- Chip Colors - Modern Selection -->
+    <color name="chip_selected">#E3F2FD</color>
+    <color name="chip_unselected">#F5F5F5</color>
+    <color name="chip_border">#BDBDBD</color>
+    <color name="chip_text_selected">#1E88E5</color>
+    <color name="chip_text_unselected">#757575</color>
+
+    <!-- Status Colors -->
+    <color name="status_pending">#FF9800</color>
+    <color name="status_requested">#FF9800</color>
+    <color name="status_approved">#8BC34A</color>
+    <color name="status_confirmed">#4CAF50</color>
+    <color name="status_in_progress">#03A9F4</color>
+    <color name="status_completed">#2196F3</color>
+    <color name="status_cancelled">#F44336</color>
+    <color name="status_declined">#F44336</color>
+    
+    <!-- Light Status Colors for Backgrounds -->
+    <color name="light_blue">#E3F2FD</color>
+    <color name="light_green">#E8F5E9</color>
+    <color name="light_orange">#FFF3E0</color>
+    <color name="light_red">#FFEBEE</color>
+
+    <!-- Cart & Shopping -->
+    <color name="background_light_gray">#FAFAFA</color>
+    <color name="red">#E53935</color>
+    <color name="light_gray">#F5F5F5</color>
+
+    <!-- Navigation - Consistent Theme -->
+    <color name="nav_icon_selected">#1E88E5</color>
+    <color name="nav_icon_unselected">#9E9E9E</color>
+    <color name="nav_background">#FFFFFF</color>
+
+    <!-- Material Design Colors -->
+    <color name="green_500">#4CAF50</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="orange_500">#FF9800</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="teal_500">#009688</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#1E88E5</color>
+    <color name="gradient_end">#1565C0</color>
+
+    <!-- Shadow & Overlay -->
+    <color name="shadow">#1A000000</color>
+    <color name="overlay_dark">#80000000</color>
+    <color name="overlay_light">#40000000</color>
+
+    <!-- Theme Colors -->
+    <color name="primary_blue_light">#E3F2FD</color>
+    <color name="primary_blue_dark">#0D47A1</color>
+    <color name="colorPrimary">#1E88E5</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorAccent">#FFC107</color>
+</resources>

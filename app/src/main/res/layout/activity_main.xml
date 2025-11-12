@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_grey"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+            <!-- Welcome Header -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="24dp"
+                android:paddingBottom="8dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/welcome_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/welcome_message"
+                        android:textSize="18sp"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/default_user_name"
+                        android:textSize="15sp"
+                        android:textColor="@color/text_secondary"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:src="@drawable/ic_profile"
+                    android:background="@drawable/bg_profile_round"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/profile_image_description"
+                    android:layout_marginLeft="8dp"/>
+            </LinearLayout>
+
+            <!-- Search Field -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/background_grey">
+
+                    <ImageView
+                        android:id="@+id/search_icon"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="14dp"
+                        android:src="@drawable/ic_search"
+                        app:tint="@color/icon_tint"/>
+
+                    <EditText
+                        android:id="@+id/search_field"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toEndOf="@id/search_icon"
+                        android:layout_toStartOf="@id/filter_icon"
+                        android:background="@android:color/transparent"
+                        android:hint="@string/search_services_hint"
+                        android:textSize="15sp"
+                        android:paddingLeft="8dp"
+                        android:singleLine="true"
+                        android:inputType="text"/>
+
+                    <ImageView
+                        android:id="@+id/filter_icon"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="14dp"
+                        android:src="@drawable/ic_filter"
+                        app:tint="@color/icon_tint"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Featured Services Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="24dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/featured_services"
+                    android:textColor="@color/text_primary"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/see_all_featured"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/see_all"
+                    android:textSize="14sp"
+                    android:textColor="@color/primary_blue"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <!-- Featured Services Card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/featured_service_card"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="3dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/primary_blue"
+                    android:padding="18dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Premium Quality"
+                            android:textColor="@color/text_white"
+                            android:textSize="22sp"
+                            android:textStyle="bold"
+                            android:letterSpacing="0.05"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Professional Cleaning"
+                            android:textColor="@color/text_white"
+                            android:textSize="18sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Trained staff with eco-friendly products"
+                            android:textColor="@color/text_white"
+                            android:textSize="13sp"
+                            android:layout_marginTop="6dp"/>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/featured_img"
+                        android:layout_width="77dp"
+                        android:layout_height="88dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:src="@drawable/index"
+                        android:scaleType="fitCenter"
+                        android:contentDescription="@string/featured_services"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Services Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="16dp">
+
+            </LinearLayout>
+
+            <!-- Horizontal RecyclerView for Services Categories -->
+
+            <!-- Top Services Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/top_services"
+                    android:textColor="@color/text_primary"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/see_all_top_services"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/see_all"
+                    android:textSize="14sp"
+                    android:textColor="@color/primary_blue"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <!-- Chips for Filtering -->
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/chip_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                app:singleSelection="true"
+                app:selectionRequired="true">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_all"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/filter_all"
+                    app:chipBackgroundColor="@color/chip_selected"
+                    app:chipStrokeColor="@color/chip_border"
+                    app:chipStrokeWidth="1dp"
+                    app:checkedIconVisible="false"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_cleaning"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/filter_cleaning"
+                    app:chipStrokeColor="@color/chip_border"
+                    app:chipStrokeWidth="1dp"
+                    app:checkedIconVisible="false"/>
+
+
+
+
+
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_carpet"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/filter_carpet"
+                    app:chipStrokeColor="@color/chip_border"
+                    app:chipStrokeWidth="1dp"
+                    app:checkedIconVisible="false"/>
+            </com.google.android.material.chip.ChipGroup>
+
+            <!-- Search Results Info -->
+            <TextView
+                android:id="@+id/search_results_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/primary_blue"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:text="Search results" />
+
+            <!-- RecyclerView for vertical list of services -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/top_services_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:nestedScrollingEnabled="false"
+                android:overScrollMode="never"
+                android:paddingHorizontal="24dp"
+                tools:listitem="@layout/item_top_service" />
+
+            <!-- Book Now Button -->
+            <Button
+                android:id="@+id/book_now_btn"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/book_now"
+                android:backgroundTint="@color/primary_blue"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+</ScrollView>

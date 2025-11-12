@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">Phambili-Ma-Africa</string>
+    <string name="logo">Logo</string>
+    <string name="cleaning_tools">Skoonmaak Gereedskap</string>
+    <string name="professional_cleaning_services">Professionele Skoonmaak Dienste</string>
+
+    <!-- Settings strings -->
+    <string name="dark_mode_enabled">Donker Modus Aangeskakel</string>
+    <string name="light_mode_enabled">Lig Modus Aangeskakel</string>
+    <string name="username_required">Gebruikersnaam kan nie leeg wees nie</string>
+    <string name="valid_email_required">Voer \'n geldige e-pos in</string>
+    <string name="settings_saved">Instellings Gestoor</string>
+
+    <!-- Common Strings -->
+    <string name="book_now">Bespreek Nou</string>
+    <string name="save">Stoor</string>
+    <string name="cancel">Kanselleer</string>
+    <string name="see_all">Sien Alles</string>
+
+    <!-- Header Text -->
+    <string name="book_cleaning_service">Bespreek Skoonmaak Diens</string>
+    <string name="our_services">Ons Dienste</string>
+    <string name="my_profile">My Profiel</string>
+    <string name="edit_profile">Wysig Profiel</string>
+    <string name="my_cart">My Mandjie</string>
+    <string name="cleaning_products">Skoonmaak Produkte</string>
+
+    <!-- Service Details Section -->
+    <string name="service_details">Diens Besonderhede</string>
+    <string name="service_type">Diens Tipe</string>
+    <string name="property_type">Eiendom Tipe</string>
+    <string name="property_size">Grootte (m²)</string>
+    <string name="enter_size_hint">Voer grootte in</string>
+
+    <!-- Date & Time Section -->
+    <string name="preferred_date">Verkose Datum</string>
+    <string name="preferred_time">Verkose Tyd</string>
+    <string name="select_date_hint">Kies datum</string>
+    <string name="select_time_hint">Kies tyd</string>
+    <string name="preferred_date_time">Verkose Datum en Tyd</string>
+
+    <!-- Address Section -->
+    <string name="service_address">Diens Adres</string>
+    <string name="address">Adres</string>
+    <string name="enter_address_hint">Voer jou volledige adres in</string>
+
+    <!-- Special Instructions -->
+    <string name="special_instructions">Spesiale Instruksies</string>
+    <string name="special_instructions_hint">Enige spesiale vereistes of instruksies...</string>
+    <string name="enter_instructions_hint">Voer enige instruksies in</string>
+
+    <!-- Button & Footer -->
+    <string name="confirm_booking_request">Bevestig Besprekingsversoek</string>
+    <string name="request_booking">Versoek Bespreking</string>
+    <string name="booking_confirmation_note">Ons sal jou bespreking binne 2 uur bevestig</string>
+    <string name="save_settings">Stoor Instellings</string>
+    <string name="proceed_to_checkout">Gaan voort na Afrekening</string>
+    <string name="confirm_payment">Bevestig Betaling</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_message">Welkom 👋</string>
+    <string name="search_services_hint">Soek dienste</string>
+    <string name="special_offers">Spesiale Aanbiedinge</string>
+    <string name="discount_description">Kry afslag vir elke bespreking, bespreek nou!</string>
+    <string name="top_services">Top Dienste</string>
+    <string name="filter_all">Alles</string>
+    <string name="filter_cleaning">Skoonmaak</string>
+    <string name="filter_carpet">Mat</string>
+
+    <!-- Payment Screen -->
+    <string name="payment_card">Krediet/Debiet Kaart</string>
+    <string name="payment_eft">EFT/Bank Oordrag</string>
+    <string name="payment_cash">Kontant met Aflewering</string>
+
+    <!-- Profile Screens -->
+    <string name="your_name_hint">Jou Naam</string>
+    <string name="your_email_hint">Jou E-pos</string>
+    <string name="phone_hint">Telefoon</string>
+    <string name="password_hint">Wagwoord</string>
+    <string name="address_hint">Adres</string>
+
+    <!-- Settings Screen -->
+    <string name="settings">Instellings</string>
+    <string name="dark_mode">Donker Modus</string>
+    <string name="username">Gebruikersnaam</string>
+    <string name="enter_username_hint">Voer jou gebruikersnaam in</string>
+    <string name="email">E-pos</string>
+    <string name="phone_number">Telefoonnommer</string>
+    <string name="enter_phone_hint">Voer jou telefoonnommer in</string>
+    <string name="app_language">App Taal</string>
+
+    <!-- Navigation -->
+    <string name="home">Tuis</string>
+    <string name="services">Dienste</string>
+    <string name="products">Produkte</string>
+    <string name="profile">Profiel</string>
+    <string name="cart">Mandjie</string>
+    <string name="book_service">Bespreek Diens</string>
+    <string name="help_and_support">Hulp en Ondersteuning</string>
+    <string name="booking_history">Besprekingsgeskiedenis</string>
+    <string name="logout">Teken uit</string>
+
+    <!-- Error Messages -->
+    <string name="error_required_field">Hierdie veld is verpligtend</string>
+    <string name="error_invalid_email">Voer \'n geldige e-pos adres in</string>
+    <string name="error_invalid_phone">Voer \'n geldige telefoonnommer in</string>
+    <string name="error_network">Netwerk fout. Kontroleer jou verbinding.</string>
+    <string name="error_unknown">\n Onverwagte fout het voorgekom</string>
+
+    <!-- Success Messages -->
+    <string name="success_booking_created">Bespreking suksesvol geskep!</string>
+    <string name="success_profile_updated">Profiel suksesvol opgedateer!</string>
+    <string name="success_settings_saved">Instellings suksesvol gestoor!</string>
+    <string name="success_payment_processed">Betaling suksesvol verwerk!</string>
+    <string name="success_item_added_to_cart">Item by mandjie gevoeg</string>
+
+    <!-- Confirmation Messages -->
+    <string name="confirm_clear_cart">Is jy seker jy wil jou mandjie leegmaak?</string>
+    <string name="confirm_logout">Is jy seker jy wil uitteken?</string>
+    <string name="confirm_cancel_booking">Is jy seker jy wil hierdie bespreking kanselleer?</string>
+
+    <!-- Loading States -->
+    <string name="loading">Laai…</string>
+    <string name="processing_payment">Verwerk betaling…</string>
+    <string name="submitting_booking">Dien bespreking in…</string>
+    <string name="updating_profile">Dateer profiel op…</string>
+
+    <!-- Empty States -->
+    <string name="no_services_available">Geen dienste beskikbaar</string>
+    <string name="no_products_available">Geen produkte beskikbaar</string>
+    <string name="no_bookings_found">Geen besprekings gevind</string>
+
+    <!-- Status Messages -->
+    <string name="status_pending">Hangend</string>
+    <string name="status_confirmed">Bevestig</string>
+    <string name="status_completed">Voltooi</string>
+    <string name="status_cancelled">Gekanselleer</string>
+
+    <!-- Quantity and Pricing -->
+    <string name="quantity">Hoeveelheid</string>
+    <string name="price">Prys</string>
+    <string name="total">Totaal</string>
+    <string name="discount">Afslag</string>
+    <string name="free">Gratis</string>
+
+    <!-- Action Buttons -->
+    <string name="add_to_cart">Voeg by Mandjie</string>
+    <string name="remove_from_cart">Verwyder uit Mandjie</string>
+    <string name="update_cart">Dateer Mandjie op</string>
+    <string name="checkout">Afreken</string>
+    <string name="place_order">Plaas Bestelling</string>
+    <string name="continue_shopping">Gaan voort met Shop</string>
+
+    <!-- Authentication -->
+    <string name="login">Teken in</string>
+    <string name="signup">Teken aan</string>
+    <string name="forgot_password">Wagwoord vergeet?</string>
+    <string name="reset_password">Herstel Wagwoord</string>
+    <string name="create_account">Skep Rekening</string>
+    <string name="already_have_account">Het jy reeds \'n rekening?</string>
+    <string name="dont_have_account">Het jy nie \'n rekening nie?</string>
+
+    <!-- Service Descriptions -->
+    <string name="coming_soon">Binnekort Beskikbaar</string>
+    <string name="personal_information">Persoonlike Inligting</string>
+    <string name="preferences">Voorkeure</string>
+    <string name="services_available">%d Dienste Beskikbaar</string>
+
+    <!-- Service Names and Descriptions -->
+    <string name="deep_cleaning">Diep Skoonmaak</string>
+    <string name="deep_cleaning_description">Omskep jou ruimte in \'n sprankelende toevlug met ons omvattende diep skoonmaakdiens. Ons dek elke hoekie en verseker \'n deeglik skoon omgewing.</string>
+
+    <string name="window_cleaning">Venster Skoonmaak</string>
+    <string name="window_cleaning_description">Kristalhelder venster skoonmaak vir huise en kantore met streepvrye resultate. Ons hanteer beide binne- en buitevensters veilig.</string>
+
+    <string name="upholstery_cleaning">Stoffering Skoonmaak</string>
+    <string name="upholstery_cleaning_description">Diep skoonmaak vir banke, stoele en matrasse om vuil, vlekke en allergene te verwyder. Herstel jou meubels se oorspronklike skoonheid.</string>
+
+    <string name="office_cleaning">Kantoor Skoonmaak</string>
+    <string name="office_cleaning_description">Omvattende kantoor skoonmaak vir \'n produktiewe en professionele werkspasie. Ons werk na-ure om onderbreking te minimeer.</string>
+
+    <string name="pest_control">Plaag Beheer</string>
+    <string name="pest_control_description">Professionele plaagbeheerdienste vir huise en kantore. Veilige en effektiewe uitskakeling van plae met ekovriendelike oplossings.</string>
+
+    <string name="carpet_cleaning">Mat Skoonmaak</string>
+    <string name="carpet_cleaning_description">Professionele mat skoonmaak met warm water ekstraksie en stoom skoonmaak. Verwyder diep-sittende vuil en vlekke effektief.</string>
+
+    <string name="corporate_cleaning">Korporatiewe En Private Huishoudelike Skoonmaak</string>
+    <string name="corporate_cleaning_description">Toegespitste skoonmaakdienste vir kantore en residensiële eiendomme. Aangepaste planne om aan jou spesifieke behoeftes te voldoen.</string>
+
+    <string name="fumigation">Beroking</string>
+    <string name="fumigation_description">Volledige berokingsdienste vir plaag-uitwissing en -voorkoming. Veilig vir gesinne en troeteldiere wanneer behoorlik toegepas.</string>
+
+    <string name="gardening">Tuinmaak</string>
+    <string name="gardening_description">Volledige tuinmaakdienste vir planting, instandhouding en plaagvoorkoming. Veilig vir gesinne, troeteldiere en die omgewing wanneer behoorlik bestuur.</string>
+
+    <!-- Language Array -->
+    <string-array name="languages">
+        <item>Engels</item>
+        <item>Zoeloe</item>
+        <item>Afrikaans</item>
+        <item>Xhosa</item>
+        <item>Suid-Sotho</item>
+    </string-array>
+</resources>

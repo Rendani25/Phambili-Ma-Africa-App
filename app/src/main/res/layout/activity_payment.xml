@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F4FAFF">
+
+    <!-- Total amount -->
+    <TextView
+        android:id="@+id/totalAmountText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_to_pay_default"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#0066CC"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Payment Methods -->
+    <RadioGroup
+        android:id="@+id/paymentMethods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="24dp">
+
+        <RadioButton
+            android:id="@+id/rbCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_card"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rbEFT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_eft"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rbCash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_cash"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <!-- Confirm Button -->
+    <Button
+        android:id="@+id/confirmPaymentButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/confirm_payment"
+        android:textSize="18sp"
+        android:textColor="#FFF"
+        android:backgroundTint="#0066CC"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

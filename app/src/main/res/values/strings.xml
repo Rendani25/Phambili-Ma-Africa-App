@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- App Info -->
+    <string name="app_name">Phambili-Ma-Africa</string>
+    <string name="logo">Logo</string>
+    <string name="cleaning_tools">Cleaning Tools</string>
+    <string name="professional_cleaning_services">Professional Cleaning Services</string>
+    <string name="default_web_client_id">1016016841041-1h14s068frubpho9dl4p9ok42b7ecvl1.apps.googleusercontent.com</string>
+
+    <!-- Settings strings -->
+    <string name="dark_mode_enabled">Dark Mode Enabled</string>
+    <string name="light_mode_enabled">Light Mode Enabled</string>
+    <string name="username_required">Username cannot be empty</string>
+    <string name="valid_email_required">Enter a valid email</string>
+    <string name="settings_saved">Settings Saved</string>
+
+    <!-- Booking form arrays -->
+    <string-array name="service_types">
+        <item>Regular Cleaning</item>
+        <item>Deep Cleaning</item>
+        <item>Office Cleaning</item>
+        <item>Window Cleaning</item>
+        <item>Carpet Cleaning</item>
+        <item>Upholstery Cleaning</item>
+        <item>Commercial Cleaning</item>
+    </string-array>
+
+    <string-array name="property_types">
+        <item>Apartment</item>
+        <item>House</item>
+        <item>Office</item>
+        <item>Commercial Space</item>
+        <item>Other</item>
+    </string-array>
+    
+    <string-array name="service_frequency">
+        <item>One-time</item>
+        <item>Weekly</item>
+        <item>Bi-weekly</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <!-- Cart and Shopping strings -->
+    <string name="back_button_description" translatable="false">Back</string>
+    <string name="shopping_cart" translatable="false">Shopping Cart</string>
+    <string name="empty_cart_message">Your cart is empty</string>
+    <string name="total_amount_default">Total: R0.00</string>
+    <string name="proceed_to_checkout_default">Proceed to Checkout - R0.00</string>
+    <string name="clear_cart">Clear Cart</string>
+    <string name="continue_shopping">Continue Shopping</string>
+    <string name="your_shopping_cart">Your Shopping Cart</string>
+    <string name="close_cart_description">Close cart</string>
+    <string name="empty_cart_description">Empty cart</string>
+    <string name="your_cart_is_empty">Your cart is empty</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="default_total_amount">R0.00</string>
+    <string name="shipping_taxes_calculated">Shipping &amp; taxes calculated at checkout</string>
+    <string name="view_cart_default">View Cart - R0.00</string>
+    <string name="secure_payment_description">Secure payment</string>
+    <string name="secure_payment">Secure Payment</string>
+
+    <!-- Common Strings -->
+    <string name="book_now">Book Now</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="see_all">See All</string>
+
+    <!-- Content Descriptions -->
+    <string name="cleaning_icon_description">Cleaning</string>
+    <string name="booking_icon_description">Booking</string>
+    <string name="info_icon_description">Info</string>
+    <string name="profile_image_description">Profile</string>
+    <string name="service_image_description">Service Image</string>
+    <string name="coming_soon_description">Coming Soon</string>
+    <string name="surface_cleaners_description">Surface Cleaners</string>
+    <string name="disinfectants_description">Disinfectants</string>
+    <string name="air_fresheners_description">Air Fresheners</string>
+    <string name="cleaning_tools_description">Cleaning Tools</string>
+    <string name="profile_photo_description">Profile Photo</string>
+    <string name="edit_photo_description">Edit Photo</string>
+    <string name="email_icon_description">Email Icon</string>
+    <string name="phone_icon_description">Phone Icon</string>
+    <string name="location_icon_description">Location Icon</string>
+    <string name="offer_image_description">Special Offer</string>
+    <string name="chat_icon_description">Chat Icon</string>
+    <string name="calendar_icon_description">Calendar Icon</string>
+    <string name="edit_icon_description">Edit Icon</string>
+    <string name="user_icon_description">User Icon</string>
+    <string name="service_details_icon">Service Details Icon</string>
+
+    <!-- Header Text -->
+    <string name="book_cleaning_service">Book Cleaning Service</string>
+    <string name="our_services">Our Services</string>
+    <string name="my_profile">My Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="my_cart">My Cart</string>
+    <string name="cleaning_products">Cleaning Products</string>
+
+    <!-- Service Details Section -->
+    <string name="service_details">Service Details</string>
+    <string name="service_type">Service Type</string>
+    <string name="property_type">Property Type</string>
+    <string name="property_size">Size (m²)</string>
+    <string name="enter_size_hint">Enter size</string>
+    <string name="service_frequency">Service Frequency</string>
+    <string name="schedule">Schedule</string>
+
+    <!-- Date & Time Section -->
+    <string name="preferred_date">Preferred Date</string>
+    <string name="preferred_time">Preferred Time</string>
+    <string name="select_date_hint">Select date</string>
+    <string name="select_time_hint">Select time</string>
+    <string name="preferred_date_time">Preferred Date and Time</string>
+
+    <!-- Address Section -->
+    <string name="service_address">Service Address</string>
+    <string name="service_location">Service Location</string>
+    <string name="address">Address</string>
+    <string name="street_address">Street Address</string>
+    <string name="enter_address_hint">Enter your complete address</string>
+    <string name="enter_street_address_hint">Enter your street address</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="postal_code">Postal Code</string>
+
+    <!-- Special Instructions -->
+    <string name="special_instructions">Special Instructions</string>
+    <string name="special_instructions_hint">Any special requirements or instructions...</string>
+    <string name="enter_instructions_hint">Enter any instructions</string>
+    <string name="additional_information">Additional Information</string>
+    <string name="special_requirements">Special Requirements</string>
+    <string name="special_requirements_hint">Any specific requirements, access instructions, or additional information that will help us provide better service...</string>
+    <string name="your_information">Your Information</string>
+
+    <!-- Button & Footer -->
+    <string name="confirm_booking_request">Confirm Booking Request</string>
+    <string name="request_booking">Request Booking</string>
+    <string name="request_quotation">Request Quotation</string>
+    <string name="booking_confirmation_note">We\'ll confirm your booking within 2 hours</string>
+    <string name="quotation_note">You\'ll receive a custom quotation within 24 hours. No payment required at this stage.</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="proceed_to_checkout">Proceed to Checkout</string>
+    <string name="confirm_payment">Confirm Payment</string>
+
+    <!-- Service Benefits -->
+    <string name="service_benefits">Professional cleaners • Eco-friendly products • Satisfaction guaranteed</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_message">Welcome 👋</string>
+    <string name="default_user_name">Fatena Tareq</string>
+    <string name="search_services_hint">Search services</string>
+    <string name="special_offers">Special Offers</string>
+    <string name="featured_services">Featured Services</string>
+    <string name="discount_percentage">25%</string>
+    <string name="special_friday">Special Friday!</string>
+    <string name="discount_description">Get discount for every booking, book now!</string>
+    <string name="top_services">Top services</string>
+    <string name="filter_all">All</string>
+    <string name="filter_cleaning">Cleaning</string>
+    <string name="filter_carpet">Carpet</string>
+
+    <!-- Payment Screen -->
+    <string name="total_default">Total: R0.00</string>
+    <string name="total_to_pay_default">Total to Pay: R0.00</string>
+    <string name="payment_card">Credit/Debit Card</string>
+    <string name="payment_eft">EFT/Bank Transfer</string>
+    <string name="payment_cash">Cash on Delivery</string>
+
+    <!-- Products Screen -->
+    <string name="premium_cleaning_products">Premium Cleaning Products</string>
+    <string name="coming_soon_description_long">Be the first to experience our eco-friendly, professional-grade cleaning products. Get notified for exclusive launch offers and early access.</string>
+    <string name="enter_email_hint">Enter your email</string>
+    <string name="notify_me_when_available">NOTIFY ME WHEN AVAILABLE</string>
+    <string name="product_categories">Product Categories</string>
+    <string name="surface_cleaners">Surface Cleaners</string>
+    <string name="all_purpose_cleaners">All-purpose cleaners</string>
+    <string name="disinfectants">Disinfectants</string>
+    <string name="germ_protection">Germ protection</string>
+    <string name="air_fresheners">Air Fresheners</string>
+    <string name="fresh_scents">Fresh scents</string>
+    <string name="professional_gear">Professional gear</string>
+    <string name="eco_friendly_note">All products are eco-friendly and cruelty-free</string>
+
+    <!-- Services List Screen -->
+    <string name="services_available_count">8 Services Available</string>
+
+    <!-- Service Items -->
+    <string name="service_name_default">Service Name</string>
+    <string name="service_price_default">R350</string>
+    <string name="service_rating_default">4.8</string>
+    <string name="service_reviews_default">(120 reviews)</string>
+    <string name="deep_cleaning">Deep Cleaning</string>
+    <string name="service_price_from">From R350</string>
+    <string name="service_rating_stars">★ 4.8</string>
+
+    <!-- Profile Screens -->
+    <string name="your_name_hint">Your Name</string>
+    <string name="your_email_hint">Your Email</string>
+    <string name="phone_hint">Phone</string>
+    <string name="password_hint">Password</string>
+    <string name="address_hint">Address</string>
+    <string name="default_user_email">faten.tarek.abdallah@gmail.com</string>
+    <string name="default_phone_number">0111111111</string>
+    <string name="default_address">Cairo, Egypt</string>
+
+    <!-- Settings Screen -->
+    <string name="settings">Settings</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="username">Username</string>
+    <string name="enter_username_hint">Enter your username</string>
+    <string name="email">Email</string>
+    <string name="email_address">Email Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_phone_hint">Enter your phone number</string>
+    <string name="app_language">App Language</string>
+
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="services">Services</string>
+    <string name="products">Products</string>
+    <string name="profile">Profile</string>
+    <string name="cart">Cart</string>
+    <string name="book_service">Book Service</string>
+    <string name="help_and_support">Help and Support</string>
+    <string name="booking_history">Booking History</string>
+    <string name="logout">Logout</string>
+
+    <!-- Cart Screen -->
+    <string name="cart_empty">Your cart is empty</string>
+
+    <!-- Service Detail Screen -->
+    <string name="default_service_title">Upholstery Cleaning</string>
+    <string name="default_service_price">R200</string>
+    <string name="photos_and_videos">Photos and videos</string>
+
+    <!-- Book Service Screen -->
+    <string name="book_your_cleaning_service">Book Your Cleaning Service</string>
+    <string name="service">Service</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+
+    <!-- Additional arrays for spinners -->
+    <string-array name="preferred_time_slots">
+        <item>Morning (8AM - 12PM)</item>
+        <item>Afternoon (12PM - 4PM)</item>
+        <item>Evening (4PM - 8PM)</item>
+        <item>Any Time</item>
+    </string-array>
+    
+    <string-array name="booking_time_slots">
+        <item>08:00 AM</item>
+        <item>09:00 AM</item>
+        <item>10:00 AM</item>
+        <item>11:00 AM</item>
+        <item>12:00 PM</item>
+        <item>01:00 PM</item>
+        <item>02:00 PM</item>
+        <item>03:00 PM</item>
+        <item>04:00 PM</item>
+        <item>05:00 PM</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Zulu</item>
+        <item>Afrikaans</item>
+        <item>Xhosa</item>
+        <item>Sesotho</item>
+    </string-array>
+
+    <!-- Error Messages -->
+    <string name="error_required_field">This field is required</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_invalid_phone">Please enter a valid phone number</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_unknown">An unexpected error occurred</string>
+
+    <!-- Success Messages -->
+    <string name="success_booking_created">Booking created successfully!</string>
+    <string name="success_profile_updated">Profile updated successfully!</string>
+    <string name="success_settings_saved">Settings saved successfully!</string>
+    <string name="success_payment_processed">Payment processed successfully!</string>
+    <string name="success_item_added_to_cart">Item added to cart</string>
+
+    <!-- Confirmation Messages -->
+    <string name="confirm_clear_cart">Are you sure you want to clear your cart?</string>
+    <string name="confirm_logout">Are you sure you want to logout?</string>
+    <string name="confirm_cancel_booking">Are you sure you want to cancel this booking?</string>
+
+    <!-- Loading States -->
+    <string name="loading">Loading…</string>
+    <string name="processing_payment">Processing payment…</string>
+    <string name="submitting_booking">Submitting booking…</string>
+    <string name="updating_profile">Updating profile…</string>
+
+    <!-- Empty States -->
+    <string name="no_services_available">No services available</string>
+    <string name="no_products_available">No products available</string>
+    <string name="no_bookings_found">No bookings found</string>
+
+    <!-- Status Messages -->
+    <string name="status_pending">Pending</string>
+    <string name="status_confirmed">Confirmed</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_cancelled">Cancelled</string>
+
+    <!-- Quantity and Pricing -->
+    <string name="quantity">Quantity</string>
+    <string name="price">Price</string>
+    <string name="total">Total</string>
+    <string name="discount">Discount</string>
+    <string name="free">Free</string>
+
+    <!-- Action Buttons -->
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="remove_from_cart">Remove from Cart</string>
+    <string name="update_cart">Update Cart</string>
+    <string name="checkout">Checkout</string>
+    <string name="place_order">Place Order</string>
+    <string name="browse_services">Browse Services</string>
+    <string name="browse_products">Browse Products</string>
+
+    <!-- Time and Duration -->
+    <string name="duration">Duration</string>
+    <string name="hours">hours</string>
+    <string name="minutes">minutes</string>
+    <string name="estimated_time">Estimated time</string>
+
+    <!-- Rating and Reviews -->
+    <string name="rating">Rating</string>
+    <string name="reviews">Reviews</string>
+    <string name="write_review">Write a Review</string>
+    <string name="read_reviews">Read Reviews</string>
+    <string name="no_reviews_yet">No reviews yet</string>
+
+    <!-- Booking Status -->
+    <string name="booking_id">Booking ID</string>
+    <string name="booking_date">Booking Date</string>
+    <string name="booking_time">Booking Time</string>
+    <string name="booking_status">Status</string>
+    <string name="booking_details">Booking Details</string>
+    <string name="upcoming_bookings">Upcoming Bookings</string>
+    <string name="past_bookings">Past Bookings</string>
+
+    <!-- Service Features -->
+    <string name="feature_eco_friendly">Eco-friendly</string>
+    <string name="feature_quick_service">Quick Service</string>
+    <string name="feature_trained_professionals">Trained Professionals</string>
+    <string name="feature_quality_guaranteed">Quality Guaranteed</string>
+    <string name="feature_insured">Fully Insured</string>
+
+    <!-- Contact Information -->
+    <string name="contact_us">Contact Us</string>
+    <string name="customer_support">Customer Support</string>
+    <string name="phone_support">Phone Support</string>
+    <string name="email_support">Email Support</string>
+    <string name="live_chat">Live Chat</string>
+    <string name="faq">FAQ</string>
+    <string name="help_center">Help Center</string>
+
+    <!-- Authentication -->
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+
+    <!-- Service Descriptions -->
+    <string name="coming_soon">Coming Soon</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="preferences">Preferences</string>
+    <string name="pest_control">Pest Control</string>
+    <string name="pest_control_description">Professional pest control services for homes and offices. Safe and effective elimination of pests with eco-friendly solutions.</string>
+    <string name="services_available">%d Services Available</string>
+    <string name="deep_cleaning_description">Transform your space into a sparkling haven with our comprehensive deep cleaning service. We cover every corner, ensuring a thoroughly clean environment.</string>
+    <string name="window_cleaning">Window Cleaning</string>
+    <string name="window_cleaning_description">Crystal clear window cleaning for homes and offices with streak-free results. We handle both interior and exterior windows safely.</string>
+    <string name="upholstery_cleaning">Upholstery Cleaning</string>
+    <string name="upholstery_cleaning_description">Deep cleaning for sofas, chairs, and mattresses to remove dirt, stains, and allergens. Restore your furniture\'s original beauty.</string>
+    <string name="office_cleaning">Office Cleaning</string>
+    <string name="office_cleaning_description">Comprehensive office cleaning for a productive and professional workspace. We work after hours to minimize disruption.</string>
+    <string name="carpet_cleaning">Carpet Cleaning</string>
+    <string name="carpet_cleaning_description">Professional carpet cleaning using hot water extraction and steam cleaning. Removes deep-seated dirt and stains effectively.</string>
+    <string name="corporate_cleaning">Corporate And Private Household Cleaning</string>
+    <string name="corporate_cleaning_description">Tailored cleaning services for offices and residential properties. Customized plans to meet your specific needs.</string>
+    <string name="fumigation">Fumigation</string>
+    <string name="fumigation_description">Complete fumigation services for pest eradication and prevention. Safe for families and pets when properly applied.</string>
+    <string name="gardening">Gardening</string>
+    <string name="gardening_description">Complete gardening services for planting, maintenance, and pest prevention. Safe for families, pets, and the environment when properly managed.</string>
+
+    <!-- Form Labels -->
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="full_name">Full Name</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="filter_office" />
+</resources>

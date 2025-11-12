@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FB">
+
+    <!-- Toolbar -->
+    <LinearLayout
+        android:id="@+id/profile_toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center_vertical"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp">
+
+        <ImageView
+            android:id="@+id/back_arrow"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_back"
+            android:contentDescription="@string/back_button_description"
+            app:tint="#222"/>
+        <TextView
+            android:id="@+id/profile_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_profile"
+            android:textColor="#222"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginStart="12dp"/>
+    </LinearLayout>
+
+    <!-- Profile Picture and Edit Button -->
+    <FrameLayout
+        android:id="@+id/profile_pic_container"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintTop_toBottomOf="@id/profile_toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/profile_photo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_profile_big"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bg_profile_round"
+            android:contentDescription="@string/profile_photo_description" />
+
+        <ImageView
+            android:id="@+id/edit_photo"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_edit"
+            android:background="@drawable/bg_profile_pic_edit"
+            android:layout_gravity="bottom|end"
+            android:contentDescription="@string/edit_photo_description"
+            android:layout_marginBottom="6dp"
+            android:layout_marginEnd="8dp"/>
+    </FrameLayout>
+
+    <!-- Editable Fields -->
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="@string/your_name_hint"
+        android:background="@drawable/bg_profile_field"
+        android:textColor="#444"
+        android:textColorHint="#A0A6B2"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp"
+        app:layout_constraintTop_toBottomOf="@id/profile_pic_container"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="@string/your_email_hint"
+        android:background="@drawable/bg_profile_field"
+        android:textColor="#444"
+        android:textColorHint="#A0A6B2"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp"
+        android:inputType="textEmailAddress"
+        app:layout_constraintTop_toBottomOf="@id/edit_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="@string/phone_hint"
+        android:background="@drawable/bg_profile_field"
+        android:textColor="#444"
+        android:textColorHint="#A0A6B2"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp"
+        android:inputType="phone"
+        app:layout_constraintTop_toBottomOf="@id/edit_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="@string/password_hint"
+        android:background="@drawable/bg_profile_field"
+        android:textColor="#444"
+        android:textColorHint="#A0A6B2"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp"
+        android:inputType="textPassword"
+        app:layout_constraintTop_toBottomOf="@id/edit_phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+        android:id="@+id/edit_address"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="@string/address_hint"
+        android:background="@drawable/bg_profile_field"
+        android:textColor="#444"
+        android:textColorHint="#A0A6B2"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/edit_password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Save and Cancel Buttons -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintTop_toBottomOf="@id/edit_address"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/save_btn"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:text="@string/save"
+            android:textColor="#FFF"
+            android:backgroundTint="#2F5AFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            app:cornerRadius="12dp"
+            android:layout_marginEnd="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cancel_btn"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:textColor="#2F5AFF"
+            android:backgroundTint="#EEF2F7"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            app:cornerRadius="12dp"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <!-- Bottom Navigation removed -->
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FB">
+
+    <!-- Top App Bar -->
+    <LinearLayout
+        android:id="@+id/top_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/back_arrow"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_back"
+            android:contentDescription="@string/back_button_description"
+            app:tint="#222"/>
+        <TextView
+            android:id="@+id/booking_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/book_service"
+            android:textColor="#222"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginStart="12dp"/>
+    </LinearLayout>
+
+    <!-- Booking Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/booking_card"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="22dp"
+        app:cardElevation="3dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        app:layout_constraintTop_toBottomOf="@id/top_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/booking_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/book_your_cleaning_service"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="#2F5AFF"
+                android:gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Service Type DropDown -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/service"
+                android:textSize="15sp"
+                android:textColor="#222"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginBottom="4dp"/>
+            <Spinner
+                android:id="@+id/service_type"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/rounded_edittext"
+                android:paddingHorizontal="12dp"
+                android:spinnerMode="dropdown"
+                android:textColor="#444"
+                android:textSize="16sp" />
+
+            <!-- Date Picker -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                android:textSize="15sp"
+                android:textColor="#222"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginBottom="4dp"/>
+            <EditText
+                android:id="@+id/booking_date"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/rounded_edittext"
+                android:hint="@string/select_date_hint"
+                android:inputType="none"
+                android:focusable="false"
+                android:textColor="#444"
+                android:textSize="16sp"
+                android:drawableEnd="@drawable/ic_calendar"
+                android:paddingHorizontal="12dp"/>
+
+            <!-- Time Picker -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time"
+                android:textSize="15sp"
+                android:textColor="#222"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginBottom="4dp"/>
+            <EditText
+                android:id="@+id/booking_time"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/rounded_edittext"
+                android:hint="@string/select_time_hint"
+                android:inputType="none"
+                android:focusable="false"
+                android:textColor="#444"
+                android:textSize="16sp"
+                android:drawableEnd="@drawable/ic_clock"
+                android:paddingHorizontal="12dp"/>
+
+            <!-- Preferred Date and Time Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/preferred_date_time"
+                android:textSize="15sp"
+                android:textColor="#222"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginBottom="4dp"/>
+            <Spinner
+                android:id="@+id/preferred_datetime"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/rounded_edittext"
+                android:paddingHorizontal="12dp"
+                android:textColor="#444"
+                android:textSize="16sp"
+                android:layout_marginBottom="14dp"
+                android:spinnerMode="dropdown" />
+
+            <!-- Address Input -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:textSize="15sp"
+                android:textColor="#222"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginBottom="4dp"/>
+            <EditText
+                android:id="@+id/booking_address"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/rounded_edittext"
+                android:hint="@string/enter_address_hint"
+                android:inputType="text"
+                android:textColor="#444"
+                android:textSize="16sp"
+                android:paddingHorizontal="12dp"/>
+
+            <!-- Special Instructions -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/special_instructions"
+                android:textSize="15sp"
+                android:textColor="#222"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginBottom="4dp"/>
+            <EditText
+                android:id="@+id/special_instructions"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@drawable/rounded_edittext"
+                android:hint="@string/enter_instructions_hint"
+                android:inputType="textMultiLine"
+                android:textColor="#444"
+                android:textSize="15sp"
+                android:paddingHorizontal="12dp"
+                android:gravity="top"
+                android:layout_marginBottom="18dp"/>
+
+            <!-- Submit Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/submit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/request_booking"
+                android:textColor="#FFF"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:backgroundTint="#2F5AFF"
+                android:fontFamily="sans-serif-medium"
+                android:elevation="2dp"
+                app:cornerRadius="12dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        app:menu="@menu/bottom_nav_menu"
+        android:background="#FFF"
+        android:theme="@style/Widget.MaterialComponents.BottomNavigationView"
+        app:itemIconTint="@color/color_nav_selector"
+        app:itemTextColor="@color/color_nav_selector"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

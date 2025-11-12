@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FB"
+    android:padding="0dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:visibility="gone" />
+            
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <!-- Back Arrow -->
+        <ImageView
+            android:id="@+id/back_arrow"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_back"
+            android:contentDescription="@string/back_button_description"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+
+        <!-- Service Image -->
+        <ImageView
+            android:id="@+id/service_image"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/white"
+            android:contentDescription="@string/service_image_description"
+            android:clipToOutline="true"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Card-like container -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:layout_marginTop="-20dp"
+            android:padding="24dp"
+            android:elevation="2dp">
+
+            <!-- Title & Price -->
+            <TextView
+                android:id="@+id/service_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_service_title"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#252A34"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/service_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_service_price"
+                android:textSize="18sp"
+                android:textColor="#2F5AFF"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"/>
+
+            <!-- Ratings -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:id="@+id/service_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="#FFAA00"/>
+
+                <TextView
+                    android:id="@+id/service_reviews"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginStart="8dp"
+                    android:textColor="#555"/>
+            </LinearLayout>
+
+            <!-- Description (Styled) -->
+            <TextView
+                android:id="@+id/service_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#333"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginTop="16dp"
+                android:inputType="textMultiLine"
+                android:textIsSelectable="true"/>
+
+            <!-- Gallery Header Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/photos_and_videos"
+                    android:textColor="#2F5AFF"
+                    android:textStyle="bold"
+                    android:textSize="15sp"/>
+
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp" />
+
+                <TextView
+                    android:id="@+id/see_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/see_all"
+                    android:textColor="#2F5AFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <!-- Gallery Grid (RecyclerView) -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/gallery_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:minHeight="140dp"
+                android:overScrollMode="never"
+                android:nestedScrollingEnabled="false"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Book Now Button -->
+            <Button
+                android:id="@+id/book_now_btn"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/book_now"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:backgroundTint="#2F5AFF"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="0dp"
+                android:elevation="1dp"
+                android:fontFamily="sans-serif-medium"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

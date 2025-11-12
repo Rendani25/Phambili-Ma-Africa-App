@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "578543988665",
+    "project_id": "phambili-ma-africa-9c4ca",
+    "storage_bucket": "phambili-ma-africa-9c4ca.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578543988665:android:42e7c2a620a5372bcb9068",
+        "android_client_info": {
+          "package_name": "com.example.phambili_ma_africa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578543988665-8u5re59a47ifipn90ufinn1hn025bm3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4_AagSzr8wmR3UNmq87s9v-sRGorTjC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578543988665-8u5re59a47ifipn90ufinn1hn025bm3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

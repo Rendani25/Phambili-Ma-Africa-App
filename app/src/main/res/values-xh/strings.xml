@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">Phambili-Ma-Africa</string>
+    <string name="logo">Ilogo</string>
+    <string name="cleaning_tools">Izixhobo Zokucoca</string>
+    <string name="professional_cleaning_services">Iinkonzo Zokucoca Ezisemgangathweni</string>
+
+    <!-- Settings strings -->
+    <string name="dark_mode_enabled">Imo Emnyama Ivuliwe</string>
+    <string name="light_mode_enabled">Imo Ekhanyayo Ivuliwe</string>
+    <string name="username_required">Igama lomsebenzisi alinakushiywa lingekho</string>
+    <string name="valid_email_required">Nceda ufake i-imeyile esebenzayo</string>
+    <string name="settings_saved">Iisetingi Zigciniwe</string>
+
+    <!-- Common Strings -->
+    <string name="book_now">Buka Ngoku</string>
+    <string name="save">Gcina</string>
+    <string name="cancel">Rhoxisa</string>
+    <string name="see_all">Jonga Zonke</string>
+
+    <!-- Header Text -->
+    <string name="book_cleaning_service">Buka Inkonzo Yokucoca</string>
+    <string name="our_services">Iinkonzo Zethu</string>
+    <string name="my_profile">Iprofayile Yam</string>
+    <string name="edit_profile">Hlela Iprofayile</string>
+    <string name="my_cart">Ikariti Yam</string>
+    <string name="cleaning_products">Iimveliso Zokucoca</string>
+
+    <!-- Service Details Section -->
+    <string name="service_details">Iinkcukacha Zenkonzo</string>
+    <string name="service_type">Uhlobo Lwenkonzo</string>
+    <string name="property_type">Uhlobo Lwendawo</string>
+    <string name="property_size">Ubungakanani (m²)</string>
+    <string name="enter_size_hint">Ngenisa ubungakanani</string>
+
+    <!-- Date & Time Section -->
+    <string name="preferred_date">Umhla Okhethiweyo</string>
+    <string name="preferred_time">Ixesha Elikhethiweyo</string>
+    <string name="select_date_hint">Khetha umhla</string>
+    <string name="select_time_hint">Khetha ixesha</string>
+    <string name="preferred_date_time">Umhla Nexesha Elikhethiweyo</string>
+
+    <!-- Address Section -->
+    <string name="service_address">Idilesi Yenkonzo</string>
+    <string name="address">Idilesi</string>
+    <string name="enter_address_hint">Ngenisa idilesi epheleleyo</string>
+
+    <!-- Special Instructions -->
+    <string name="special_instructions">Imiyalelo Ekhethekileyo</string>
+    <string name="special_instructions_hint">Naluphi na ulwazi okanye imiyalelo ekhethekileyo...</string>
+    <string name="enter_instructions_hint">Ngenisa imiyalelo</string>
+
+    <!-- Button & Footer -->
+    <string name="confirm_booking_request">Qinisekisa Isicelo Sokubhukisha</string>
+    <string name="request_booking">Cela Ukubhukisha</string>
+    <string name="booking_confirmation_note">Siza kuqinisekisa ukubhukisha kwakho kwiiyure ezi-2</string>
+    <string name="save_settings">Gcina Iisetingi</string>
+    <string name="proceed_to_checkout">Qhubeka Ukuhlawula</string>
+    <string name="confirm_payment">Qinisekisa Intlawulo</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_message">Wamkelekile 👋</string>
+    <string name="search_services_hint">Khangela iinkonzo</string>
+    <string name="special_offers">Izibonelelo Ezizodwa</string>
+    <string name="discount_description">Fumana isaphulelo kuyo yonke inkonzo, buka ngoku!</string>
+    <string name="top_services">Iinkonzo Ezibalaseleyo</string>
+    <string name="filter_all">Zonke</string>
+    <string name="filter_cleaning">Ukucoca</string>
+    <string name="filter_carpet">Ikhaphethi</string>
+
+    <!-- Payment Screen -->
+    <string name="payment_card">Ikhadi Letyala/Debit</string>
+    <string name="payment_eft">Intlawulo yeBhanki (EFT)</string>
+    <string name="payment_cash">Imali xa Kunikezelwa</string>
+
+    <!-- Profile Screens -->
+    <string name="your_name_hint">Igama Lakho</string>
+    <string name="your_email_hint">I-imeyile Yakho</string>
+    <string name="phone_hint">Inombolo Yefowuni</string>
+    <string name="password_hint">Iphasiwedi</string>
+    <string name="address_hint">Idilesi</string>
+
+    <!-- Settings Screen -->
+    <string name="settings">Iisetingi</string>
+    <string name="dark_mode">Imo Emnyama</string>
+    <string name="username">Igama Lomsebenzisi</string>
+    <string name="enter_username_hint">Ngenisa igama lomsebenzisi</string>
+    <string name="email">I-imeyile</string>
+    <string name="phone_number">Inombolo Yefowuni</string>
+    <string name="enter_phone_hint">Ngenisa inombolo yefowuni</string>
+    <string name="app_language">Ulwimi Lwesicelo</string>
+
+    <!-- Navigation -->
+    <string name="home">Ekhaya</string>
+    <string name="services">Iinkonzo</string>
+    <string name="products">Iimveliso</string>
+    <string name="profile">Iprofayile</string>
+    <string name="cart">Ikariti</string>
+    <string name="book_service">Buka Inkonzo</string>
+    <string name="help_and_support">Uncedo Nenkxaso</string>
+    <string name="booking_history">Imbali Yokubhukisha</string>
+    <string name="logout">Phuma</string>
+
+    <!-- Error Messages -->
+    <string name="error_required_field">Le ndawo iyafuneka</string>
+    <string name="error_invalid_email">Nceda ufake i-imeyile esebenzayo</string>
+    <string name="error_invalid_phone">Nceda ufake inombolo yefowuni esebenzayo</string>
+    <string name="error_network">Imposiso yenethiwekhi. Khangela unxibelelwano lwakho.</string>
+    <string name="error_unknown">Imposiso engalindelekanga yenzekile</string>
+
+    <!-- Success Messages -->
+    <string name="success_booking_created">Ukubhukisha kuphumelele!</string>
+    <string name="success_profile_updated">Iprofayile ihlaziyiwe ngempumelelo!</string>
+    <string name="success_settings_saved">Iisetingi zigciniwe ngempumelelo!</string>
+    <string name="success_payment_processed">Intlawulo iqhutywe ngempumelelo!</string>
+    <string name="success_item_added_to_cart">Into yongezwe kwikariti</string>
+
+    <!-- Confirmation Messages -->
+    <string name="confirm_clear_cart">Uqinisekile ufuna ukucima ikariti?</string>
+    <string name="confirm_logout">Uqinisekile ufuna ukuphuma?</string>
+    <string name="confirm_cancel_booking">Uqinisekile ufuna ukurhoxisa ukubhukisha?</string>
+
+    <!-- Loading States -->
+    <string name="loading">Ilayisha…</string>
+    <string name="processing_payment">Iqhubekeka intlawulo…</string>
+    <string name="submitting_booking">Ithumela ukubhukisha…</string>
+    <string name="updating_profile">Ihlaziya iprofayile…</string>
+
+    <!-- Empty States -->
+    <string name="no_services_available">Akukho nkonzo ifumanekayo</string>
+    <string name="no_products_available">Akukho mveliso ifumanekayo</string>
+    <string name="no_bookings_found">Akukho zibhaliso zifunyenweyo</string>
+
+    <!-- Status Messages -->
+    <string name="status_pending">Ilindile</string>
+    <string name="status_confirmed">Iqinisekisiwe</string>
+    <string name="status_completed">Igqityiwe</string>
+    <string name="status_cancelled">Irhoxisiwe</string>
+
+    <!-- Quantity and Pricing -->
+    <string name="quantity">Ubuninzi</string>
+    <string name="price">Ixabiso</string>
+    <string name="total">Iyonke</string>
+    <string name="discount">Isaphulelo</string>
+    <string name="free">Simahla</string>
+
+    <!-- Action Buttons -->
+    <string name="add_to_cart">Yongeza Kwikariti</string>
+    <string name="remove_from_cart">Susa Kwikariti</string>
+    <string name="update_cart">Hlaziya Ikariti</string>
+    <string name="checkout">Hlawula</string>
+    <string name="place_order">Beka Umyalelo</string>
+    <string name="continue_shopping">Qhubeka Nokuthenga</string>
+
+    <!-- Authentication -->
+    <string name="login">Ngena</string>
+    <string name="signup">Bhalisa</string>
+    <string name="forgot_password">Ulibele Iphasiwedi?</string>
+    <string name="reset_password">Seta kwakhona Iphasiwedi</string>
+    <string name="create_account">Yenza Iakhawunti</string>
+    <string name="already_have_account">Sele Uneakhawunti?</string>
+    <string name="dont_have_account">Awunayo iakhawunti?</string>
+
+    <!-- Service Descriptions -->
+    <string name="coming_soon">Iyeza Kungekudala</string>
+    <string name="personal_information">Inkcazelo YoMntu</string>
+    <string name="preferences">Iinketho</string>
+    <string name="services_available">%d Iinkonzo Ezifumanekayo</string>
+
+    <!-- Service Names and Descriptions -->
+    <string name="deep_cleaning">Ukucoca Gxalaba</string>
+    <string name="deep_cleaning_description">Tshintsha indawo yakho ibe yindawo ekqabayo ngenkonzo yethu yokucoca gxalaba. Sihlanganisa zonke iindawo, siqinisekisa indawo ecocekileyo ngokupheleleyo.</string>
+
+    <string name="window_cleaning">Ukucoca iifestile</string>
+    <string name="window_cleaning_description">Ukucoca iifestile ecacileyo kumakhaya namagumbi omsebenzi ngeziphumo ezingenamigca. Siphetha kokubini iifestile zangaphakathi nezangaphandle ngokukhuselekileyo.</string>
+
+    <string name="upholstery_cleaning">Ukucoca Izinto Zokuhlala</string>
+    <string name="upholstery_cleaning_description">Ukucoca okunzulu kumasofa, iindlebe zokuhlala nematrasi ukususa unkunkqo, iintaka nezinto ezinokwenza abantu babe nolunya. Buyisela ubuhle bemveli befenitshala yakho.</string>
+
+    <string name="office_cleaning">Ukucoca Igumbi Lomsebenzi</string>
+    <string name="office_cleaning_description">Ukucoca okupheleleyo kwegumbi lomsebenzi lendawo yokusebenza enika imveliso neyobugcisa. Sisebenza emva kweeyure ukunciphisa ukuphazamiseka.</string>
+
+    <string name="pest_control">Ulawulo Lwezinambuzane</string>
+    <string name="pest_control_description">Iinkonzo zobugcisa zolawulo lwezinambuzane zamakhaya namagumbi omsebenzi. Ukupheliswa kokhuselekileyo nokuphumelelayo kwezinambuzane ngezisombululo zemvelo.</string>
+
+    <string name="carpet_cleaning">Ukucoca Ikhaphethi</string>
+    <string name="carpet_cleaning_description">Ukucoca ikhaphethi kobugcisa kusetyenziswa ukukhutshwa kwamanzi ashisayo nokucoca ngeqhwa. Isusa unkunkqo ogxalaba neentaka ngempumelelo.</string>
+
+    <string name="corporate_cleaning">Ukucoca Kwenkampani Kunye
+ Yesakhaya Somntu</string>
+    <string name="corporate_cleaning_description">Iinkonzo zokucoca ezilungiselelwe amagumbi omsebenzi nezakhiwo zokuhlala. Amapulani acwangcisiweyo ukuhlangabezana neemfuno zakho ezithile.</string>
+
+    <string name="fumigation">Ukufutha</string>
+    <string name="fumigation_description">Iinkonzo zokufutha ezipheleleyo zokuqothulwa kwezinambuzane nokunqanda. Kukhuselekile kubantu basekhaya nezilwanyana xa zisetyenziswa ngokufanelekileyo.</string>
+
+    <string name="gardening">Ukulima</string>
+    <string name="gardening_description">Iinkonzo zokulima ezipheleleyo zokutyalwa, ukugcinwa nokunqandwa kwezinambuzane. Kukhuselekile kubantu basekhaya, izilwanyana zasekhaya nendalo xa kulawulwa ngokufanelekileyo.</string>
+
+    <!-- Language Array -->
+    <string-array name="languages">
+        <item>IsiNgesi</item>
+        <item>IsiZulu</item>
+        <item>IsiBhulu</item>
+        <item>IsiXhosa</item>
+        <item>IsiSuthu</item>
+    </string-array>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sidebar_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sidebar_item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Product Name"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_black"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <TextView
+                android:id="@+id/sidebar_item_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="R0.00"
+                android:textSize="12sp"
+                android:textColor="@color/text_gray"
+                android:layout_marginTop="2dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/sidebar_decrease_btn"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_remove"
+                android:contentDescription="Decrease quantity"
+                android:scaleType="center" />
+
+            <TextView
+                android:id="@+id/sidebar_item_quantity"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="12sp"
+                android:textColor="@color/text_black"
+                android:gravity="center"
+                android:layout_marginHorizontal="4dp" />
+
+            <ImageButton
+                android:id="@+id/sidebar_increase_btn"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_add"
+                android:contentDescription="Increase quantity"
+                android:scaleType="center" />
+
+            <ImageButton
+                android:id="@+id/sidebar_remove_btn"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_close"
+                android:contentDescription="Remove item"
+                android:scaleType="center"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">Phambili-Ma-Africa</string>
+    <string name="logo">Letšoao</string>
+    <string name="cleaning_tools">Lisebelisoa tsa ho Hloekisa</string>
+    <string name="professional_cleaning_services">Litšebeletso tsa ho Hloekisa tsa Boitsebelo</string>
+
+    <!-- Settings strings -->
+    <string name="dark_mode_enabled">Mokhoa o Motšo o Butsoe</string>
+    <string name="light_mode_enabled">Mokhoa o Khanyang o Butsoe</string>
+    <string name="username_required">Lebitso la mosebelisi le ke ke la ba letho</string>
+    <string name="valid_email_required">Kenya imeile e nepahetseng</string>
+    <string name="settings_saved">Litlhophiso li Bolokiloe</string>
+
+    <!-- Common Strings -->
+    <string name="book_now">Ngodisa Hona Joale</string>
+    <string name="save">Boloka</string>
+    <string name="cancel">Hlakola</string>
+    <string name="see_all">Sheba Tsohle</string>
+
+    <!-- Header Text -->
+    <string name="book_cleaning_service">Ngodisa Tšebeletso ea ho Hloekisa</string>
+    <string name="our_services">Litšebeletso tsa Rōna</string>
+    <string name="my_profile">Boitsebiso ba Ka</string>
+    <string name="edit_profile">Fetola Boitsebiso</string>
+    <string name="my_cart">Kariki ea Ka</string>
+    <string name="cleaning_products">Lihlahisoa tsa ho Hloekisa</string>
+
+    <!-- Service Details Section -->
+    <string name="service_details">Lintlha tsa Tšebeletso</string>
+    <string name="service_type">Mofuta oa Tšebeletso</string>
+    <string name="property_type">Mofuta oa Sebaka</string>
+    <string name="property_size">Boholo (m²)</string>
+    <string name="enter_size_hint">Kenya boholo</string>
+
+    <!-- Date & Time Section -->
+    <string name="preferred_date">Letsatsi le Lakatswang</string>
+    <string name="preferred_time">Nako e Lakatswang</string>
+    <string name="select_date_hint">Khetha letsatsi</string>
+    <string name="select_time_hint">Khetha nako</string>
+    <string name="preferred_date_time">Letsatsi le Nako e Lakatswang</string>
+
+    <!-- Address Section -->
+    <string name="service_address">Aterese ea Tšebeletso</string>
+    <string name="address">Aterese</string>
+    <string name="enter_address_hint">Kenya aterese e feletseng</string>
+
+    <!-- Special Instructions -->
+    <string name="special_instructions">Litaelo tse Khethehileng</string>
+    <string name="special_instructions_hint">Litlhoko kapa litaelo tse khethehileng...</string>
+    <string name="enter_instructions_hint">Kenya litaelo</string>
+
+    <!-- Button & Footer -->
+    <string name="confirm_booking_request">Netefatsa Kopo ea ho Ngodisa</string>
+    <string name="request_booking">Kopa ho Ngodisa</string>
+    <string name="booking_confirmation_note">Re tla netefatsa ngodiso ea hau nakong ea lihora tse 2</string>
+    <string name="save_settings">Boloka Litlhophiso</string>
+    <string name="proceed_to_checkout">Tsoela Pele ho Lefella</string>
+    <string name="confirm_payment">Netefatsa Tefo</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_message">Rea u Amohela 👋</string>
+    <string name="search_services_hint">Batla litšebeletso</string>
+    <string name="special_offers">Litlhahiso tse Khethehileng</string>
+    <string name="discount_description">Fumana theolelo bakeng sa ngodiso e \'ngoe le e \'ngoe, ngodisa hona joale!</string>
+    <string name="top_services">Litšebeletso tse Holimo</string>
+    <string name="filter_all">Tsohle</string>
+    <string name="filter_cleaning">Ho Hloekisa</string>
+    <string name="filter_carpet">Khapete</string>
+
+    <!-- Payment Screen -->
+    <string name="payment_card">Karete ea Mokitlane/Debit</string>
+    <string name="payment_eft">Phetisetso ea Banka (EFT)</string>
+    <string name="payment_cash">Chelete ha e isoa</string>
+
+    <!-- Profile Screens -->
+    <string name="your_name_hint">Lebitso la Hao</string>
+    <string name="your_email_hint">Imeile ea Hao</string>
+    <string name="phone_hint">Nomoro ea Mohala</string>
+    <string name="password_hint">Phasewete</string>
+    <string name="address_hint">Aterese</string>
+
+    <!-- Settings Screen -->
+    <string name="settings">Litlhophiso</string>
+    <string name="dark_mode">Mokhoa o Motšo</string>
+    <string name="username">Lebitso la Mosebelisi</string>
+    <string name="enter_username_hint">Kenya lebitso la mosebelisi</string>
+    <string name="email">Imeile</string>
+    <string name="phone_number">Nomoro ea Mohala</string>
+    <string name="enter_phone_hint">Kenya nomoro ea mohala</string>
+    <string name="app_language">Puo ea App</string>
+
+    <!-- Navigation -->
+    <string name="home">Lehae</string>
+    <string name="services">Litšebeletso</string>
+    <string name="products">Lihlahisoa</string>
+    <string name="profile">Boitsebiso</string>
+    <string name="cart">Kariki</string>
+    <string name="book_service">Ngodisa Tšebeletso</string>
+    <string name="help_and_support">Thuso le Tšehetso</string>
+    <string name="booking_history">Nalane ea Lingodiso</string>
+    <string name="logout">Tsoa</string>
+
+    <!-- Error Messages -->
+    <string name="error_required_field">Lefapha lena lea hlokahala</string>
+    <string name="error_invalid_email">Kenya imeile e nepahetseng</string>
+    <string name="error_invalid_phone">Kenya nomoro ea mohala e nepahetseng</string>
+    <string name="error_network">Phoso ea marang-rang. Lekola khokahanyo ea hau.</string>
+    <string name="error_unknown">Phoso e sa lebelloang e etsahetse</string>
+
+    <!-- Success Messages -->
+    <string name="success_booking_created">Ngodiso e atlehile!</string>
+    <string name="success_profile_updated">Boitsebiso bo ntlafalitsoe ka katleho!</string>
+    <string name="success_settings_saved">Litlhophiso li bolokiloe ka katleho!</string>
+    <string name="success_payment_processed">Tefo e entsoe ka katleho!</string>
+    <string name="success_item_added_to_cart">Ntho e kentsoe kariking</string>
+
+    <!-- Confirmation Messages -->
+    <string name="confirm_clear_cart">Na u tiile hore u batla ho hlakola kariki?</string>
+    <string name="confirm_logout">Na u tiile hore u batla ho tsoa?</string>
+    <string name="confirm_cancel_booking">Na u tiile hore u batla ho hlakola ngodiso ee?</string>
+
+    <!-- Loading States -->
+    <string name="loading">E jarisa…</string>
+    <string name="processing_payment">E sebetsana le tefo…</string>
+    <string name="submitting_booking">E romella ngodiso…</string>
+    <string name="updating_profile">E ntlafatsa boitsebiso…</string>
+
+    <!-- Empty States -->
+    <string name="no_services_available">Ha ho litšebeletso tse fumanehang</string>
+    <string name="no_products_available">Ha ho lihlahisoa tse fumanehang</string>
+    <string name="no_bookings_found">Ha ho lingodiso tse fumanoeng</string>
+
+    <!-- Status Messages -->
+    <string name="status_pending">E emetse</string>
+    <string name="status_confirmed">E netefalitsoe</string>
+    <string name="status_completed">E phethetsoe</string>
+    <string name="status_cancelled">E hlakotsoe</string>
+
+    <!-- Quantity and Pricing -->
+    <string name="quantity">Bongata</string>
+    <string name="price">Theko</string>
+    <string name="total">Kakaretso</string>
+    <string name="discount">Theolelo</string>
+    <string name="free">Mahala</string>
+
+    <!-- Action Buttons -->
+    <string name="add_to_cart">Kenya Kariking</string>
+    <string name="remove_from_cart">Tlosa Kariking</string>
+    <string name="update_cart">Ntlafatsa Kariki</string>
+    <string name="checkout">Lefella</string>
+    <string name="place_order">Beha Odara</string>
+    <string name="continue_shopping">Tsoela Pele ho Reka</string>
+
+    <!-- Authentication -->
+    <string name="login">Kena</string>
+    <string name="signup">Ingolise</string>
+    <string name="forgot_password">U lebetse Phasewete?</string>
+    <string name="reset_password">Seta Bocha Phasewete</string>
+    <string name="create_account">Etsa Akhaonte</string>
+    <string name="already_have_account">Na o se o na le akhaonte?</string>
+    <string name="dont_have_account">Ha o na akhaonte?</string>
+
+    <!-- Service Descriptions -->
+    <string name="coming_soon">E Tla haufinyane</string>
+    <string name="personal_information">Boitsebiso ba Botho</string>
+    <string name="preferences">Litlhahisoleseling</string>
+    <string name="services_available">Litšebeletso tse %d tse Fumanang</string>
+
+    <!-- Service Names and Descriptions -->
+    <string name="deep_cleaning">Ho Hloekisa ha Botebo</string>
+    <string name="deep_cleaning_description">Fetola sebaka sa hau ebe lehae le khanyang ka tšebeletso ea rona ea ho hloekisa ha botebo. Re koahela likhona tsohle, re netefatsa tikoloho e hloekileng ka botlalo.</string>
+
+    <string name="window_cleaning">Ho Hloekisa ha Fensetere</string>
+    <string name="window_cleaning_description">Ho hloekisa ha fensetere ha kristale ho malapa le liofisi ka litlamorao tse se nang mebala. Re sebetsa ka bobeli lifensetere tsa ka hare le tsa kantle ka polokeho.</string>
+
+    <string name="upholstery_cleaning">Ho Hloekisa ha Difenitshara</string>
+    <string name="upholstery_cleaning_description">Ho hloekisa ha botebo ha difofane, litulo, le limatrase ho tlosa lesira, litšila, le lintho tse hlahisang maloetse. Busetsa botle ba pele ba fenitshara ea hau.</string>
+
+    <string name="office_cleaning">Ho Hloekisa ha Ofisi</string>
+    <string name="office_cleaning_description">Ho hloekisa ha ofisi ha botebo bakeng sa sebaka sa mosebetsi se hlahisang le se botseanape. Re sebetsa ka mora a lihora ho fokotsa pherekano.</string>
+
+    <string name="pest_control">Ho Laola Ditshenyekeletso</string>
+    <string name="pest_control_description">Litšebeletso tsa botseanape tsa ho laola ditshenyekeletso tsa malapa le liofisi. Ho hlakola ha ditshenyekeletso ka polokeho le ho sebetsa ka tharollo tsa tikoloho.</string>
+
+    <string name="carpet_cleaning">Ho Hloekisa ha Khapethe</string>
+    <string name="carpet_cleaning_description">Ho hloekisa ha khapethe ha botseanape ho sebelisa ho ntšoa ha metsi a belang le ho hloekisa ka mosi. Ho tlosa lesira le botebo le litšila ka katleho.</string>
+
+    <string name="corporate_cleaning">Ho Hloekisa ha Khamphani le Lehae la Botho</string>
+    <string name="corporate_cleaning_description">Litšebeletso tsa ho hloekisa tse loketsoeng liofisi le matlo a lihae. Merero e lokiselitsoeng ho amana le litlhoko tsa hau tse khethehileng.</string>
+
+    <string name="fumigation">Fumigation</string>
+    <string name="fumigation_description">Litšebeletso tsa fumigation tse feletseng bakeng sa ho hlakola le ho thibela ditshenyekeletso. E bolokehile ho malapa le liphoofolo ha e sebelisoa ka nepo.</string>
+
+    <string name="gardening">Tema</string>
+    <string name="gardening_description">Litšebeletso tse feletseng tsa tema bakeng sa ho mela, tšebeliso, le thibelo ya ditshenyekeletso. E bolokehile ho malapa, liphoofolo le tikoloho ha e laoloa ka nepo.</string>
+
+    <!-- Language Array -->
+    <string-array name="languages">
+        <item>Sesemane</item>
+        <item>Sezulu</item>
+        <item>Seburu</item>
+        <item>Isixhosa</item>
+        <item>Sesotho</item>
+    </string-array>
+</resources>
